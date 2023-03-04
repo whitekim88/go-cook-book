@@ -65,6 +65,8 @@ func (m *MenuConf) Version() {
 func main() {
 	c := MenuConf{}
 	menu := c.SetupMenu()
+	fmt.Println(len(os.Args))
+	fmt.Println(os.Args[1:])
 	if err := menu.Parse(os.Args[1:]); err != nil {
 		fmt.Printf("Error parsing params %s, error: %v", os.Args[1:], err)
 		return

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/whitekim88/go-cook-book/internal/io_filesystem/template"
+	"github.com/whitekim88/go-cook-book/internal/01io_filesystem/template"
 )
 
 func main() {
